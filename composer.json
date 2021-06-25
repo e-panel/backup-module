@@ -1,0 +1,24 @@
+{
+    "name": "e-panel/backup-module",
+    "type": "laravel-module", 
+    "description": "Epanel DB Backup Management.",
+    "authors": [
+        {
+            "name": "Noviyanto Rahmadi",
+            "email": "novay@btekno.id"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Backup\\": ""
+        }
+    }
+}
